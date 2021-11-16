@@ -1,0 +1,41 @@
+.expense-form {
+  display: flex;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #334257;
+  color: white;
+}
+
+.label-width {
+  min-width: 200px;
+  display: inline-block;
+  width: 100px;
+}
+
+.form-controls {
+  padding: 10px;
+}
+
+.form-controls-submit {
+  float: right;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 140px;
+  height: 40px;
+  padding: 5px;
+  margin-right: 10px;
+}
